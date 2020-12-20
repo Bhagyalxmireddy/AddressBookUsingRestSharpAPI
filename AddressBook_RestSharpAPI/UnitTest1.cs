@@ -84,5 +84,12 @@ namespace AddressBook_RestSharpAPI
             Assert.AreEqual("Bijinapally", dataResponse.City);
             Assert.AreEqual("TM", dataResponse.State);
         }
+        [TestMethod]
+        public void deletingThePerson_ShouldReturnpersons()
+        {
+            RestRequest request = new RestRequest("/addressBook/6", Method.DELETE);
+            IRestResponse response = client.Execute(request);
+            Assert.AreEqual(response.StatusCode, HttpStatusCode.OK);
+        }
     }
 }

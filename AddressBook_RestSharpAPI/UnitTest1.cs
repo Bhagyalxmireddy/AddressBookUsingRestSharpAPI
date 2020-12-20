@@ -62,5 +62,27 @@ namespace AddressBook_RestSharpAPI
                 Assert.AreEqual(addressBook.Firstname, dataResponse.Firstname);
             }
         }
+        [TestMethod]
+        public void updatingTheperson_OnPUT_ShouldUpadateDetalis()
+        {
+            RestRequest request = new RestRequest("/addressBook/5", Method.PUT);
+            JObject jObjectbody = new JObject();
+            jObjectbody.Add("Firstname", "Sri");
+            jObjectbody.Add("Lastname", "Charitha");
+            jObjectbody.Add("Address", "BPL");
+            jObjectbody.Add("City", "Bijinapally");
+            jObjectbody.Add("State", "TM");
+            jObjectbody.Add("Zip", 500012);
+            jObjectbody.Add("PhoneNumber", "9510247123");
+
+            request.AddParameter("application/json", jObjectbody, ParameterType.RequestBody);
+
+            IRestResponse response = client.Execute(request);
+
+            Assert.AreEqual(response.StatusCode, HttpStatusCode.OK);
+            AddressBook dataResponse = JsonConvert.DeserializeObject<AddressBook>(response.Content);
+            Assert.AreEqual("Bijinapally", dataResponse.City);
+            Assert.AreEqual("TM", dataResponse.State);
+        }
     }
 }

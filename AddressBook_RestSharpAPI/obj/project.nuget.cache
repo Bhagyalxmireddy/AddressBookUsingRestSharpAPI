@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8Ft/vZyL2iLVeJoxsVqYQyltuPcgYptzORvUNpJeABpKynmSTb5KM/NWzVxBLZKE8NEphFtzymcIMk1VrfAF0Q==",
+  "dgSpecHash": "/w5mAV/vPhOq7bPYQuF9Mje9RElg/foCHVfPqTpO9iWSki3t99BtuuJA4+4JUmvWQil7kuQW8okp/cn6ZRA4KQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\USER\\source\\repos\\AddressBook_RestSharpAPI\\AddressBook_RestSharpAPI\\AddressBook_RestSharpAPI.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,7 @@
     "C:\\Users\\USER\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
